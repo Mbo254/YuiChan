@@ -1,10 +1,10 @@
 FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://github.com/nexusNw/YuiChan /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
+RUN git clone https://github.com/Mbo254/YuiChan /root/Yuichan
+WORKDIR /root/Mbp254/
 RUN yarn install --no-audit
-RUN git clone https://github.com/nexusNw/uploads
-RUN cp -R /root/Utils/* /root/WhatsAsenaDuplicated 
+*\\(Nobgms)
+RUN cp -R /root/Utils/* /root/YuiChan
 RUN npm install supervisor -g
 CMD ["node", "bot.js"]
  
